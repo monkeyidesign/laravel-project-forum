@@ -1,0 +1,16 @@
+***help
+php artisan help make:model
+
+***creating
+***app/Http/Controller/FilesContoller.php
+***app/Model/Files.php
+***database/migrations/table.php
+***database/factories/FilesFactory.php
+
+php artisan help make:model Folder/Files -mfr
+
+******************************************************
+php artisan migrate
+php artisan migrate:reset
+php artisan migrate:fresh
+php artisan migrate:rollback
